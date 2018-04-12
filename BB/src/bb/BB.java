@@ -1,21 +1,45 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package bb;
 
-/**
- *
- * @author Poen
- */
+import java.util.*;
 public class BB {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        System.out.println("HELLO");
+        
+        String a = "Y";
+        String b,b1;
+        Scanner kb = new Scanner(System.in);
+        do{
+            
+            for (int i=1; i<=40; i++){ 
+            System.out.print("-");
+            
+        }
+            
+            System.out.println();
+            System.out.println("*=*=*=*=*=* Welcome to Shops *=*=*=*=*=*");
+            
+            for (int i=1; i<=40; i++){ 
+            System.out.print("-");
+     }
+            
+            
+            System.out.println();
+            
+            JJ aa = new JJ();
+            aa.kk();
+            
+            
+            
+            
+            
+            
+            System.out.print("What do yo want to end program? Y/N : ");
+            b = kb.nextLine();
+            b1 = b.toUpperCase();
+          }
+        while(!(b1.equals(a)));
     }
     
 }

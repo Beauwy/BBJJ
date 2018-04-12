@@ -115,6 +115,12 @@ abstract class PJ {
         by[2] = "3.Vitamin";
         by[3] = "4.Calcium";
         by[4] = "5.Weight Logs Supplements";
+        
+        System.out.println(by[0]);
+        System.out.println(by[1]);
+        System.out.println(by[2]);
+        System.out.println(by[3]);
+        System.out.println(by[4]);
     
     }
     

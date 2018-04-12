@@ -30,9 +30,8 @@ public class BB {
             JJ aa = new JJ();
             aa.kk();
             
-            
-            
-            
+            PJ yy = new PJ(){};
+            yy.se();
             
             
             System.out.print("What do yo want to end program? Y/N : ");

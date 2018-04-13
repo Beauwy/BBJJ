@@ -2,8 +2,9 @@
 package bb;
 
 import java.util.*;
-abstract class PJ {
+abstract class PJ implements JP  {
     
+    @Override
     public void se(){
         
         int abc;
@@ -25,6 +26,7 @@ abstract class PJ {
     
     }
     
+    @Override
     public void cosmetics(){
         
         String[] an = new String[5];
@@ -42,6 +44,7 @@ abstract class PJ {
     
     }
     
+    @Override
     public void skincare(){
         
         int ai;
@@ -60,6 +63,7 @@ abstract class PJ {
     
     }
     
+    @Override
     public void man(){
         
         String[] as = new String[2];
@@ -71,6 +75,7 @@ abstract class PJ {
     
     }
     
+    @Override
     public void woman(){
         
         String[] at = new String[3];
@@ -84,6 +89,7 @@ abstract class PJ {
     
     }
     
+    @Override
     public void perfume(){
         
         int dd;
@@ -103,10 +109,13 @@ abstract class PJ {
     
     }
     
+    @Override
     public void men(){}
     
+    @Override
     public void women(){}
     
+    @Override
     public void dietary(){
         
         String[] by = new String[5];
@@ -124,6 +133,10 @@ abstract class PJ {
     
     }
     
+   @Override
+    public void brand(){}
     
+    @Override
+    public void type(){}
     
 }

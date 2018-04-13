@@ -24,6 +24,8 @@ public class JJ {
                 System.out.println("****************************");
                 BJ bb = new BJ();
                 bb.menu();
+                PJ yy = new PJ(){};
+                yy.se();
                 break;
                 default : System.out.println("Wrong");
             

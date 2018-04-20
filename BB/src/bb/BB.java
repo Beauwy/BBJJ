@@ -4,7 +4,7 @@ package bb;
 import java.util.*;
 public class BB {
     
-
+    
     public static void main(String[] args) {
         
         String a = "Y";

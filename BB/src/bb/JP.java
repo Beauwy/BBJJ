@@ -13,14 +13,6 @@ interface JP {
     
     public abstract void woman();
     
-    public abstract void perfume();
-    
-    public abstract void men();
-    
-    public abstract void women();
-    
-    public abstract void dietary();
-    
     public abstract void brand();
     
     public abstract void type();

@@ -11,7 +11,7 @@ public class JJ {
         
         do{
             
-            System.out.print("1.CEO or 2.CASHCHEER : ");
+            System.out.print("1.CEO or 2.ADMIN : ");
             int ac  = kb3.nextInt();
             switch(ac){
                 case 1 : login();
@@ -62,7 +62,7 @@ public class JJ {
         
         Scanner kb2 = new Scanner(System.in);
         String a,a1,e;
-        String name1 = "CASHCHEER";
+        String name1 = "ADMIN";
         String pass1 = "6666";
         
         do{

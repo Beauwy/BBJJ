@@ -53,7 +53,7 @@ System.out.println("Maybelline");
             System.out.println("10 เนื้ออ่อน");
             System.out.println("60 เนื้อ");
             System.out.println("75 เนื้อเข้ม");
-        System.out.println("FIT me! Matte+Poreless Liquid Foundation");
+        System.out.println("FIT me! Matte+Poreless Liquid Foundation");//349THB
             System.out.println("120");
             System.out.println("122");
             System.out.println("125");
@@ -118,6 +118,7 @@ System.out.println("Revlon");
             System.out.println("Sugar Mint");        
     System.out.println("Lip Color");
         System.out.println("");
+        
 System.out.println("L'OREAL");
 
 }

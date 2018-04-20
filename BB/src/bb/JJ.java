@@ -1,9 +1,11 @@
-
 package bb;
 
 import java.util.*;
 public class JJ {
     
+    public int jk;
+    public int bi;
+    public int ci;
     public void kk(){
         
         Scanner kb3 = new Scanner(System.in);
@@ -16,16 +18,26 @@ public class JJ {
             switch(ac){
                 case 1 : login();
                 System.out.println("****************************");
-                JB cc = new JB();
-                cc.check();
+                
                 break;
                 
                 case 2 : login1();
                 System.out.println("****************************");
-                BJ bb = new BJ();
+                Cosmetic bb = new Cosmetic(){};
                 bb.menu();
-                PJ yy = new PJ(){};
-                yy.se();
+                Scanner kb7 = new Scanner(System.in);
+                System.out.print("What do you want? : ");
+                jk = kb7.nextInt();                
+                switch(jk){
+                    case 1 : Cosme1 mm = new Cosme1(){};
+                             mm.Type(jk);
+                             break;
+                    case 2 : Skincare1 ss = new Skincare1(){};
+                             ss.Type(jk);
+                             break;
+                    default : System.out.println("Wrong!!!");
+            }
+                
                 break;
                 default : System.out.println("Wrong");
             
@@ -35,13 +47,12 @@ public class JJ {
         
     }
     
+    public String name = "CEO";
+    public String pass = "9999";
     public void login(){
         
         Scanner kb1 = new Scanner(System.in);
         String c,c1,d;
-        String name = "CEO";
-        String pass = "9999";
-        
         
         do{
         
@@ -58,12 +69,13 @@ public class JJ {
     
 }
     
+    public String name1 = "ADMIN";
+    public String pass1 = "6666";
     public void login1(){
         
         Scanner kb2 = new Scanner(System.in);
         String a,a1,e;
-        String name1 = "ADMIN";
-        String pass1 = "6666";
+        
         
         do{
             

@@ -9,7 +9,7 @@ public class JJ {
     public void kk(){
         
         Scanner kb3 = new Scanner(System.in);
-        int ab = 0;
+        int ab = 1;
         
         do{
             
@@ -31,6 +31,7 @@ public class JJ {
                 switch(jk){
                     case 1 : Cosme1 mm = new Cosme1(){};
                              mm.Type(jk);
+                             //mm.Color(jk);
                              break;
                     case 2 : Skincare1 ss = new Skincare1(){};
                              ss.Type(jk);
@@ -39,11 +40,11 @@ public class JJ {
             }
                 
                 break;
-                default : System.out.println("Wrong");
+                default : System.out.println("Wrong"); ab--;
             
             }
         
-        }while(ab == 3);
+        }while(ab != 1);
         
     }
     

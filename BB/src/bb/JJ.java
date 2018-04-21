@@ -43,15 +43,16 @@ public class JJ {
                     case 5 : mm.Type(jk);
                              break;
                     default : System.out.println("Wrong!!!");
+                             break;
             }
-                Skincare1 ss = new Skincare1(){};
+                /*Skincare1 ss = new Skincare1(){};
                 if(jk == 2){
                     
                              ss.Type1(jk);
                              
-                }
-                break;
-                default : System.out.println("Wrong"); ab--;
+                }*/
+                
+                default : System.out.println("Wrong"); ab--; break;
             
             }
         

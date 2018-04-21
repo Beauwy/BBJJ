@@ -5,9 +5,9 @@ abstract class Cosme1 extends Cosme {
    
     @Override
     public void Type(int y){
-        
+                
         switch (y) {
-            case 1:
+            case 1 :
                 System.out.println("==========Lipstick==========");
                 String[] jy = new String[]{"1.Mayblline","2.L'OREAL"};
                 System.out.println(jy[0]);
@@ -18,33 +18,32 @@ abstract class Cosme1 extends Cosme {
                 if(u == 1){
                     
                     Style(u);
-                    Color(u);
                     
                 }
                 else if(u == 2){
                     
-                  Style5(u);
-                  Color3(u);
+                    Style(u);
                     
                 }   break;
-            case 2:
-                System.out.println("===========Fundation==========");
-                String[] jr = new String[]{"1.Maybelline","2.L,OREAL"};
+            case 2 :
+                System.out.println("===========Foundation==========");
+                String[] jr = new String[]{"1.Maybelline","2.LOREAL"};
                 System.out.println(jr[0]);
                 System.out.println(jr[1]);
-                Scanner kb9 = new Scanner(System.in);
+                
+                Scanner kb09 = new Scanner(System.in);
                 System.out.print("Enter number : ");
-                int ty = kb9.nextInt();
+                int ty = kb09.nextInt();
+                
                 if(ty == 1){
                     
                     Style1(ty);
-                    Color1(ty);
                 
                 }
+                
                 else if(ty == 2){
                     
-                    Style6(ty);
-                    Color4(ty);
+                    Style1(ty);
                 
                 }
                 
@@ -60,14 +59,14 @@ abstract class Cosme1 extends Cosme {
                 int yu = kb11.nextInt();
                 if(yu == 1){
                     
-                    Style4(yu);
-                    Color2(yu);
+                    Style2(yu);
+                    
                 
                 }
                 else if(yu == 2){
                     
-                    Style9(yu);
-                    Color6(yu);
+                    Style2(yu);
+                    
                 
                 }
                 
@@ -83,12 +82,12 @@ abstract class Cosme1 extends Cosme {
                 int po = sc1.nextInt();
                 if(po == 1){
                     
-                    Style2();
+                    Style3(po);
                 
                 }
                 else if(po == 2){
                     
-                    Style8();
+                    Style3(po);
                 
                 }
                 
@@ -104,14 +103,15 @@ abstract class Cosme1 extends Cosme {
                 System.out.print("Enter Number : ");
                 int pa = sc2.nextInt();
                 if(pa == 1){
-                    
-                    Style2();
+                   
+                                    
+                    Style4(pa);
                 
                 }
                 else if(pa == 2){
                     
-                    Style7(pa);
-                    Color5(pa);
+                    Style4(pa);
+                    
                 
                 }
                 
@@ -126,52 +126,28 @@ abstract class Cosme1 extends Cosme {
     
     @Override
     public void Color(int x){
-        if(x == 1){
-        if(x == 1){
+        
+        
+        switch(x){
             
+            case 1 :            
             System.out.println("1.Peach Bloom : 89 BATH");
             System.out.println("2.Pink Bloom : 89 BATH");  
+            break;
         
-        }
-        if(x == 2){
-            
+            case 2 :
             System.out.println("1.Striking Orange : 99 BATH");
             System.out.println("2.Vivid Peach : 99 BATH");
             System.out.println("3.Wild Cherry : 99 BATH");
+            break;
         
-        }
-        if(x == 3){
-            
+            case 3 :
              System.out.println("1.Blackberry : 199 BATH");
              System.out.println("2.Cherry : 199 BATH");
              System.out.println("3.Cinnamon :199 BATH");
-        
-        }
-        }
-        else if(x == 2){
-        if(x == 1){
-            
-            System.out.println("1.PK02 : 229 BATH");
-            System.out.println("2.RD02 : 229 BATH");
-            System.out.println("3.RD01 : 229 BATH");
-        
-        }
-        if(x == 2){
-            
-            System.out.println("1.05 Loyalist : 249 BATH");
-            System.out.println("2.10 Dreamer : 249 BATH");
-            System.out.println("3.15 Lover : 249 BATH");
-        
-        }
-        if(x == 3){
-            
-            System.out.println("1.02 Bittersweet Mandarin : 269 BATH");
-
-            System.out.println("2.04 Show Off Nude : 269 BATH");
-
-            System.out.println("3.05 You Red-Me : 269 BATH");
-        
-        }
+             break;
+             
+            default : System.out.println("!!Wrong!!"); break;
         }
     
     }
@@ -181,60 +157,73 @@ abstract class Cosme1 extends Cosme {
   
         if(e == 1){
             
+            System.out.println("1.Lip Balm");
+            System.out.println("2.Lipstick");
             Scanner sc4 = new Scanner(System.in);
             System.out.print("Enter Number : ");
             int t = sc4.nextInt();
         switch (t) {
             case 1:
                 System.out.println("1.Babylips Loves Color Bright Out Loud");
-                break;
-            case 2:
                 System.out.println("2.Baby Lips Bloom");
-                break;
-            case 3:
                 System.out.println("3.Baby lips Candy Wow");
+                Scanner kb14 = new Scanner(System.in);
+                System.out.print("Enter number : ");
+                int li = kb14.nextInt();
+                Color(li);
                 break;
-            default : System.out.println("!!Wrong!!");
+            case 2: System.out.println("1.Lip Flush Bitten Lips");
+                    System.out.println("2.Super Stay Matte Ink {Kiss Proof}");
+                    System.out.println("3.Color Jolt");
+                    Scanner kb15 = new Scanner (System.in);
+                    System.out.print("Enter Number : ");
+                    int ch = kb15.nextInt();
+                    Color(ch);
+                       break;
+            default : System.out.println("!!Wrong!!"); break;
         }
-        if(e == 2){
-            switch(e){
-            case 1 : 
-                System.out.println("1.Lip Flush Bitten Lips");
-                break;
-            case 2 : 
-                System.out.println("2.Super Stay Matte Ink {Kiss Proof}");
-                break;
-            case 3 : 
-                System.out.println("3.Color Jolt");
-                break;
-            default: 
-                System.out.println("Wrong!!");
-                break;
         }
+        else if(e == 2){
+           
+                System.out.println("1.Color Riche Collection Star Le Nudes"); 
+                System.out.println("2.Color Riche Moist Matt");
+                System.out.println("3.Color Riche Cream");
+                System.out.println("4.Tint Caresse Lip");
+                
+                Scanner kb13 = new Scanner(System.in);
+                System.out.print("Enter Number : ");
+                int lk = kb13.nextInt();
+                Color1(lk);
+          
         }
     
-    }
+    
         
 }
     @Override
     public void Style1(int tt){
         
         if(tt == 1){
+               
+            System.out.println("1.Dream Satin Liquid Foundation SPF 24 PA+++");     
+            System.out.println("2.Dream Velvet Matte");
+            System.out.println("3.FIT me! Matte+Poreless Liquid Foundation");
+            Scanner kb05 = new Scanner(System.in);
+            System.out.print("Enter number : ");
+            int kt = kb05.nextInt();
+            Color3(kt);
             
-            switch(tt){
+        }
+        else if(tt == 2){
+            
                 
-                case 1 :
-                    System.out.println("1.Deram Satin Liquid Foundation SPF 24 PA+++");
-                    break;
-                case 2 :
-                    System.out.println("2.Dream Velvet Matte");
-                    break;
-                case 3 :
-                    System.out.println("3.FIT me! Matte+Poreless Liquid Foundation");
-                    break;
-                default : System.out.println("!!Wrong!!");
-            
-            }
+                System.out.println("True Match Liquid Foundation");
+                System.out.println("Lucent Magique Light-Infusing Foundation");
+                System.out.println("Infallible 24H Stay Fresh Foundation");
+                Scanner kb17 = new Scanner(System.in);
+            System.out.print("Enter number : ");
+            int kt1 = kb17.nextInt();
+            Color4(kt1);
         
         }
     }
@@ -242,63 +231,95 @@ abstract class Cosme1 extends Cosme {
     @Override
     public void Color1(int tu){
         
-        if(tu == 1){
+        switch(tu){
             
-            if(tu == 1){
-                
-                System.out.println("1.02 : 449 BATH");
-                System.out.println("2.01 : 449 BATH");
-                System.out.println("3.B00 : 449 BATH");
-                System.out.println("4.B2 : 449 BATH");
-            
-            }
-            if(tu == 2){
-                
-                System.out.println("1.40 : 429 BATH");
-                System.out.println("2.05 : 429 BATH");
-                System.out.println("3.10 : 429 BATH");
-                System.out.println("4.60 : 429 BATH");
-                System.out.println("5.75 : 429 BATH");
-            
-            }
-            if(tu == 3){
-               
-                System.out.println("1.120 : 349 BATH");
-                System.out.println("2.122 : 349 BATH");
-                System.out.println("3.125 : 349 BATH");
-                System.out.println("4.128 : 349 BATH");
-                System.out.println("5.130 : 349 BATH");
-                System.out.println("6.220 : 349 BATH");
-                System.out.println("7.228 : 349 BATH");
-                System.out.println("8.230 : 349 BATH");
-                System.out.println("9.235 : 349 BATH");
-                System.out.println("10.238 : 349 BATH");
-                System.out.println("11.310 : 349 BATH");
-                System.out.println("12.322 : 349 BATH");
-            
-            }
+            case 1 :        
+            System.out.println("1.B406 Barry Mga : 399 BAHT");
+            System.out.println("2.P412 Barry Pink : 399 BAHT");
+        break;
         
+            case 2 :
+            System.out.println("1.219 Rose Fondue : 399 BAHT");
+            System.out.println("2.220 Chocolat Rouge : 399 BAHT");
+            System.out.println("3.233 Rouge-Porter : 399 BAHT");
+            System.out.println("4.234 Ruby Garde : 399 BAHT");
+            System.out.println("5.235 Plum Mannickvince : 399 BAHT");
+            System.out.println("6.BP501 Peachy Brown : 399 BAHT");
+            System.out.println("7.C511 Crayon Sunset : 399 BAHT");
+            System.out.println("8.C511 Orange Power : 399 BAHT");
+            System.out.println("9.P501 Sakura Pattle : 399 BAHT");
+            System.out.println("10.R516 Lincoln Rose : 399 BAHT");
+            System.out.println("11.R519 Blues of Reds : 399 BAHT");
+                    break;
+        
+            case 3 :
+                System.out.println("1.C405 Barry Coral : 399 BAHT");
+           
+        break;
+        
+            case 4 :
+             System.out.println("1.B01 Sakura Blossom : 399 BAHT");
+             System.out.println("2.B04 Orchid Blossom : 399 BAHT");
+             System.out.println("3.B06 Rose Blossom : 399 BAHT");
+             System.out.println("4.B07 Lilly Blossom : 399 BAHT");
+             break;
+        
+            default : System.out.println("!!Wrong!!");
         }
+      
+       
     
     }
     
-    @Override
-    public void Style2(){
+   @Override
+    public void Style2(int ti){
         
+        switch(ti){
+            case 1 :
         System.out.println("1.The Nudes Palette : 549 BAHT");
         System.out.println("2.The Blushed Nudes Palette : 549 BAHT");
         System.out.println("3.The 24k Nudes Palette : 549 BAHT");
         System.out.println("4.Gigi Hadid Eyeshadow Palette : 549 BAHT");
-    
+        Scanner kb01 = new Scanner(System.in);
+        System.out.print("Enter Number : ");
+        int re = kb01.nextInt();
+        break;
+            case 2 :
+        System.out.println("1.Color Riche La Palette Nudes : 649 BAHT");
+        System.out.println("2.Color Riche La Palette Ombra : 649 BAHT");
+        System.out.println("3.Color Riche La Palette Gold : 649 BAHT");
+        System.out.println("4.Color Riche Le Stylo Smoky Shadow Stick");
+        Scanner kb02 = new Scanner(System.in);
+        System.out.print("Enter Number : ");
+        int yr = kb02.nextInt();
+        if(yr == 4){
+            
+            Color5(yr);
+        
+        }
+    }
     }
     
     @Override
-    public void Style3(){
+    public void Style3(int yq){
         
+        if(yq == 1){
         System.out.println("1.Dream One Day Perfect : 379 BAHT");
         System.out.println("2.Baby Skin : 249 BAHT");
         System.out.println("3.Baby Skin Pore Eraser : 329 BAHT");
-    
+        Scanner kb03 = new Scanner(System.in);
+        System.out.print("Enter Number : ");
+        int yn = kb03.nextInt();
+        }
+        else if(yq == 2){
+            
+        System.out.println("True Match Blur Cream Primer : 399 BAHT");
+        System.out.println("Lucent Magique Le L'E`Clat Booster Primer : 399 BAHT");
+        Scanner kb04 = new Scanner(System.in);
+        System.out.print("Enter Number : ");
+        int tb = kb04.nextInt();
+        
+        }
     }
     
     @Override
@@ -308,10 +329,24 @@ abstract class Cosme1 extends Cosme {
             
             switch(ky){
                 
-                case 1 : System.out.println("1.FIT me! Concealer"); break;
-                case 2 : System.out.println("2.Pure Minerals Healthy Natural Concealer"); break;
-                case 3 : System.out.println("3.Master Camouflage duo Concealer"); break;
-                case 4 : System.out.println("4.Master Camoflage Concealer Palette"); break;
+                case 1 : 
+                System.out.println("1.FIT me! Concealer");
+                System.out.println("2.Pure Minerals Healthy Natural Concealer");
+                System.out.println("3.Master Camouflage duo Concealer");
+                Scanner kb06 = new Scanner(System.in);
+                System.out.print("Enter Number : ");
+                int ae = kb06.nextInt();
+                Color7(ae);
+                break;
+                
+                case 2 :
+                System.out.println("1.True Match Concealer");
+                System.out.println("2.True Match Liquid Foundation SPF16 PA++");
+                Scanner kb07 = new Scanner(System.in);
+                System.out.print("Enter Number : ");
+                int ax = kb07.nextInt();
+                Color6(ax);
+                break;
                 default : System.out.println("!Wrong!");
             
             }
@@ -363,80 +398,43 @@ abstract class Cosme1 extends Cosme {
     }
     
     @Override
-    public void Style5(int nj){
-        
-        if(nj == 1){
-            
-            switch(nj){
-                
-                case 1 : System.out.println("1.Color Riche Collection Star Le Nudes"); break;
-                case 2 : System.out.println("2.Color Riche Moist Matt"); break;
-                case 3 : System.out.println("3.Color Riche Cream"); break;
-                case 4 : System.out.println("4.Tint Caresse Lip"); break;
-                default : System.out.println("Wrong");
-            
-            }
-        
-        }
-    
-    }
-    
-    @Override
     public void Color3(int op){
         
         if(op == 1){
             
-            System.out.println("1.B406 Barry Mga : 399 BAHT");
-            System.out.println("2.P412 Barry Pink : 399 BAHT");
-        
-        }
-        if(op == 2){
-            
-            System.out.println("1.219 Rose Fondue : 399 BAHT");
-            System.out.println("2.220 Chocolat Rouge : 399 BAHT");
-            System.out.println("3.233 Rouge-Porter : 399 BAHT");
-            System.out.println("4.234 Ruby Garde : 399 BAHT");
-            System.out.println("5.235 Plum Mannickvince : 399 BAHT");
-            System.out.println("6.BP501 Peachy Brown : 399 BAHT");
-            System.out.println("7.C511 Crayon Sunset : 399 BAHT");
-            System.out.println("8.C511 Orange Power : 399 BAHT");
-            System.out.println("9.P501 Sakura Pattle : 399 BAHT");
-            System.out.println("10.R516 Lincoln Rose : 399 BAHT");
-            System.out.println("11.R519 Blues of Reds : 399 BAHT");
-        
-        }
-        if(op == 3){
-            
-            System.out.println("1.C405 Barry Coral : 399 BAHT");
-        
-        }
-        if(op == 4){
-            
-             System.out.println("1.B01 Sakura Blossom : 399 BAHT");
-             System.out.println("2.B04 Orchid Blossom : 399 BAHT");
-             System.out.println("3.B06 Rose Blossom : 399 BAHT");
-             System.out.println("4.B07 Lilly Blossom : 399 BAHT");
-        
-        }
-    
-    }
-    
-    @Override
-    public void Style6(int sd){
-        
-        if(sd == 1){
-            
-            switch(sd){
-                case 1 : System.out.println("1.True Match Genius Foundation"); break;
-                case 2 : System.out.println("True Match Liquid Foundation"); break;
-                case 3 : System.out.println("Lucent Magique Light-Infusing Foundation"); break;
-                case 4 : System.out.println("Infallible 24H Stay Fresh Foundation"); break;
-                default : System.out.println("!Wrong!");
+            if(op == 1){
+                
+                System.out.println("1.02 : 449 BATH");
+                System.out.println("2.01 : 449 BATH");
+                System.out.println("3.B00 : 449 BATH");
+                System.out.println("4.B2 : 449 BATH");
+            }
+                if(op == 2){
+                
+                System.out.println("1.40 : 429 BATH");
+                System.out.println("2.05 : 429 BATH");
+                System.out.println("3.10 : 429 BATH");
+                System.out.println("4.60 : 429 BATH");
+                System.out.println("5.75 : 429 BATH");
             
             }
-        
+            if(op == 3){
+               
+                System.out.println("1.120 : 349 BATH");
+                System.out.println("2.122 : 349 BATH");
+                System.out.println("3.125 : 349 BATH");
+                System.out.println("4.128 : 349 BATH");
+                System.out.println("5.130 : 349 BATH");
+                System.out.println("6.220 : 349 BATH");
+                System.out.println("7.228 : 349 BATH");
+                System.out.println("8.230 : 349 BATH");
+                System.out.println("9.235 : 349 BATH");
+                System.out.println("10.238 : 349 BATH");
+                System.out.println("11.310 : 349 BATH");
+                System.out.println("12.322 : 349 BATH");
+            
+            }
         }
-    
     }
     
     @Override
@@ -493,25 +491,6 @@ abstract class Cosme1 extends Cosme {
     }
     
     @Override
-    public void Style7(int oo){
-        
-        if(oo == 1){
-            
-            switch(oo){
-                
-                case 1 : System.out.println("1.Color Riche La Palette Nudes : 649 BAHT"); break;
-                case 2 : System.out.println("2.Color Riche La Palette Ombra : 649 BAHT"); break;
-                case 3 : System.out.println("3.Color Riche La Palette Gold : 649 BAHT"); break;
-                case 4 : System.out.print("4.Color Riche Le Stylo Smoky Shadow Stick");break;
-                default : System.out.println("!!Wrong!!");
-            
-            }
-        
-        }
-    
-    }
-    
-    @Override
     public void Color5(int tw){
         
         if(tw == 4){
@@ -528,35 +507,9 @@ abstract class Cosme1 extends Cosme {
     }
     
     @Override
-    public void Style8(){
-        
-        System.out.println("True Match Blur Cream Primer : 399 BAHT");
-        System.out.println("Lucent Magique Le L'E`Clat Booster Primer : 399 BAHT");
-    
-    }
-    
-    @Override
-    public void Style9(int tu){
-        
-        if(tu == 1){
-            
-            switch(tu){
-                
-                case 1 : System.out.println("1.True Match Concealer"); break;
-                case 2 : System.out.println("2.True Match Liquid Foundation SPF16 PA++"); break;
-                default : System.out.println("!!Wrong!!");
-            
-            }
-        
-        }
-    
-    }
-    
-    @Override
     public void Color6(int mn){
         
-        if(mn == 1){
-            
+        
             if(mn == 1){
                 
                 System.out.println("1.W1-2-3 Fair Light Warm : 279 BAHT");
@@ -573,9 +526,48 @@ abstract class Cosme1 extends Cosme {
                 System.out.println("5.G3 Gold Vanilla : 449 Baht");
                 System.out.println("6.G5 Gold Cream : 449 Baht");
             
-            }
+            
         
         }
+    
+    }
+    
+    @Override
+    public void Color7(int uo){
+        
+        if(uo == 1){
+                
+                System.out.println("1.10 Light : 249 BAHT");
+                System.out.println("2.15 Fair : 249 BAHT");
+                System.out.println("3.20 Sand : 249 BAHT");
+                System.out.println("4.25 Medium : 249 BAHT");
+                System.out.println("5.30 Cafe : 249 BAHT");
+                System.out.println("6.35 Deep : 249 BAHT");
+            
+            }
+            if(uo == 2){
+                
+                System.out.println("1.1 Fresh : 219 BAHT");
+                System.out.println("2.3 Medium Sand : 219 BAHT");
+                System.out.println("3.2 Natural : 219 BAHT");
+            
+            }
+            if(uo == 3){
+                
+                System.out.println("1.Green Fawn : 229 BAHT");
+                System.out.println("2.Green Sand : 229 BAHT");
+                System.out.println("3.Peach Fawn : 229 BAHT");
+                System.out.println("4.PeaCH Sand : 229 BAHT");
+            
+            }
+            if(uo == 4){
+                
+                System.out.println("1.Light : 549 BAHT");
+                System.out.println("2.Medium : 549 BAHT");
+            
+            }
+        
+        
     
     }
 }

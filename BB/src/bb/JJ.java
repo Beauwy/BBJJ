@@ -27,18 +27,29 @@ public class JJ {
                 bb.menu();
                 Scanner kb7 = new Scanner(System.in);
                 System.out.print("What do you want? : ");
-                jk = kb7.nextInt();                
+                jk = kb7.nextInt();
+                
+                Cosme1 mm = new Cosme1(){};
                 switch(jk){
-                    case 1 : Cosme1 mm = new Cosme1(){};
+                    case 1 : //Cosme1 mm = new Cosme1(){};
                              mm.Type(jk);
-                             //mm.Color(jk);
                              break;
-                    case 2 : Skincare1 ss = new Skincare1(){};
-                             ss.Type(jk);
+                    case 2 : mm.Type(jk);
+                             break;
+                    case 3 : mm.Type(jk);
+                             break;
+                    case 4 : mm.Type(jk);
+                             break;
+                    case 5 : mm.Type(jk);
                              break;
                     default : System.out.println("Wrong!!!");
             }
-                
+                Skincare1 ss = new Skincare1(){};
+                if(jk == 2){
+                    
+                             ss.Type1(jk);
+                             
+                }
                 break;
                 default : System.out.println("Wrong"); ab--;
             

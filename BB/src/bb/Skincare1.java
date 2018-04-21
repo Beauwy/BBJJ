@@ -7,6 +7,9 @@ abstract class Skincare1 extends Skincare {
     public void Type1(int lk){
         
         Scanner kb00 = new Scanner(System.in);
+        System.out.print("1.Nivea or 2.Vesalline : ");
+        int yl = kb00.nextInt();
+        
         System.out.print("1.Man or 2.Woman : ");
         int gk = kb00.nextInt();
                 

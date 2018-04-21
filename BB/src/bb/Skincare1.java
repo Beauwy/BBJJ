@@ -38,7 +38,7 @@ abstract class Skincare1 extends Skincare {
     @Override
     public void Sty(int ou){
         
-        switch(ou){
+        /*switch(ou){
             
             case 1 : Man(ou);
             break;
@@ -49,7 +49,7 @@ abstract class Skincare1 extends Skincare {
             default : System.out.println(">>>>>Wrong<<<<<");
             break;
         
-        }
+        }*/
     
     }
     

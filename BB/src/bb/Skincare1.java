@@ -1,6 +1,6 @@
 package bb;
 
-class Skincare1 extends Skincare {
+abstract class Skincare1 extends Skincare {
     
    @Override
     public void Type1(int lk){
@@ -24,6 +24,6 @@ class Skincare1 extends Skincare {
     }
     
     @Override
-    public void Style20(){}
+    public void Style20(int yu){}
     
 }

@@ -31,8 +31,7 @@ public class JJ {
                 
                 Cosme1 mm = new Cosme1(){};
                 switch(jk){
-                    case 1 : //Cosme1 mm = new Cosme1(){};
-                             mm.Type(jk);
+                    case 1 : mm.Type(jk);
                              break;
                     case 2 : mm.Type(jk);
                              break;
@@ -45,12 +44,12 @@ public class JJ {
                     default : System.out.println("Wrong!!!");
                              break;
             }
-                /*Skincare1 ss = new Skincare1(){};
+                Skincare1 ss = new Skincare1(){};
                 if(jk == 2){
                     
                              ss.Type1(jk);
                              
-                }*/
+                }
                 
                 default : System.out.println("Wrong"); ab--; break;
             

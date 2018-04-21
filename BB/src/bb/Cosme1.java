@@ -65,7 +65,7 @@ abstract class Cosme1 extends Cosme {
                 }
                 else if(yu == 2){
                     
-                    Style2(yu);
+                    Style4(yu);
                     
                 
                 }
@@ -105,12 +105,12 @@ abstract class Cosme1 extends Cosme {
                 if(pa == 1){
                    
                                     
-                    Style4(pa);
+                    Style2(pa);
                 
                 }
                 else if(pa == 2){
                     
-                    Style4(pa);
+                    Style2(pa);
                     
                 
                 }

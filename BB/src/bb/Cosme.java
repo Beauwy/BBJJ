@@ -30,8 +30,5 @@ abstract class Cosme {
     public abstract void Color6(int br);
     
     public abstract void Color7(int ou);
-
-    
-    
     
 }

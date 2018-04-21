@@ -1,7 +1,0 @@
-
-package bb;
-
-
-interface Check {
-    
-}

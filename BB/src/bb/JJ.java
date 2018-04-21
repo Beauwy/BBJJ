@@ -13,15 +13,15 @@ public class JJ {
         
         do{
             
-            System.out.print("1.CEO or 2.ADMIN : ");
+            System.out.print("1.ADMIN : ");
             int ac  = kb3.nextInt();
             switch(ac){
-                case 1 : login();
-                System.out.println("****************************");
+                //case 1 : login();
+                //System.out.println("****************************");
                 
-                break;
+                //break;
                 
-                case 2 : login1();
+                case 1 : login1();
                 System.out.println("****************************");
                 Cosmetic bb = new Cosmetic(){};
                 bb.menu();
@@ -44,22 +44,22 @@ public class JJ {
                     default : System.out.println("Wrong!!!");
                              break;
             }
-                Skincare1 ss = new Skincare1(){};
-                if(jk == 2){
+                //Skincare1 ss = new Skincare1(){};
+               // if(jk == 2){
                     
-                             ss.Type1(jk);
+                            // ss.Type1(jk);
                              
-                }
+               // }
                 
                 default : System.out.println("Wrong"); ab--; break;
             
             }
-        
+        ab--;
         }while(ab != 1);
         
     }
     
-    public String name = "CEO";
+    /*public String name = "CEO";
     public String pass = "9999";
     public void login(){
         
@@ -79,7 +79,7 @@ public class JJ {
         }
         while(!(c1.equals(name) && d.equals(pass)));
     
-}
+}*/
     
     public String name1 = "ADMIN";
     public String pass1 = "6666";

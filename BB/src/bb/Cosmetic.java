@@ -7,11 +7,11 @@ abstract class Cosmetic extends Menu {
     @Override
     public void menu(){
         
-        String[] m1 = new String[]{"1.Cosmetics","2.Skincare"};
+        String[] m1 = new String[]{"1.Cosmetics"};
         
         System.out.println("************Menu*************");
         System.out.println(m1[0]);
-        System.out.println(m1[1]);
+        //ystem.out.println(m1[1]);
         
         Scanner kb6 = new Scanner(System.in);
         System.out.print("What do you want? : ");

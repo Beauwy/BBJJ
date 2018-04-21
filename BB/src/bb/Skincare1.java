@@ -3,9 +3,9 @@ package bb;
 class Skincare1 extends Skincare {
     
    @Override
-    public void Type(int l){
+    public void Type1(int lk){
         
-        if(l == 1){
+        if(lk == 1){
             
             System.out.println("=========Lotion============");
             String[] jo = new String[]{"1.NEVIA","2.SISTRA"};
@@ -13,7 +13,7 @@ class Skincare1 extends Skincare {
             System.out.println(jo[1]);
             
         }
-        else if(l == 2){
+        else if(lk == 8){
             
             System.out.println("==========Soap==========");
             String[] ju = new String[]{"1.NEVIA","2.SISTRA"};
@@ -24,6 +24,6 @@ class Skincare1 extends Skincare {
     }
     
     @Override
-    public void Style(){}
+    public void Style20(){}
     
 }

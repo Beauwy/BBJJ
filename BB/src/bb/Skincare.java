@@ -6,7 +6,7 @@ abstract class Skincare {
     
     public abstract void Type1(int yi);
     
-    public abstract void Style20(int pl);
+    public abstract void Style(int pl);
     
     public abstract void Sty(int ay);
     

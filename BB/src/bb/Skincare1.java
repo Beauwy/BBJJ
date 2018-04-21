@@ -54,9 +54,17 @@ abstract class Skincare1 extends Skincare {
     }
     
     @Override
-    public void Man(int ue){}
+    public void Man(int ue){
+        
+        System.out.println("dd");
+    
+    }
     
     @Override
-    public void Woman(int re){}
+    public void Woman(int re){
+        
+        System.out.println("aa");
+    
+    }
     
 }

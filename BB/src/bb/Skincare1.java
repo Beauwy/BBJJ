@@ -33,7 +33,7 @@ abstract class Skincare1 extends Skincare {
     }
     
     @Override
-    public void Style20(int yu){}
+    public void Style(int yu){}
     
     @Override
     public void Sty(int ou){
